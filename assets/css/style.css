@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:100,200,300,400,500,600,700');
+
+/* home page/index.html images---------------------------------------------------------------------------------------------*/
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #8e9cb2;
+} /* page background colour */
+
+body {
+    background-color: #8e9cb2;
+} /* page background colour */
+
+.albums {
+    min-height: 360px;
+    min-width: 360px;
+    background-size: cover;
+    padding-bottom: 0;
+} /* album covers */
+
+.album-artwork {
+    width: 100px !important;
+    height: 100px !important;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+} /* album covers - i had help with the margins and positions*/
+
+.carousel2 {
+    margin-top: 30px;
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #E31111;
+} /* social media wall */
+
+.carousel-control2 {
+    background-color: #e31111;
+    width: 150px !important;
+    height: 150px !important;
+} /* social media wall */
+
+.carousel_parent {
+    background-color: red;
+} /* social media wall */
+
+.album-covers {
+    text-align: center;
+} /* album covers */
+
+.icon_with_bg {
+    background-color: #ff0000;
+    border-radius: 50%;
+    padding: 15px;
+    color: #ffffff;
+} /* social media icons - i had help with social icon buttons */
+
+
+h2 {
+   /* color: white;*/
+} /* "music", "all music", "about the who" on video and paragraph sections */
+
+h3 {
+    text-align: left;
+    color: white;
+    font-family: monospace;
+} /* product names for merchandise page */
+
+h4 {
+    text-align: left;
+    color: white;
+    font-family: monospace;
+} /* prices for products on merchandise page */
+
+.albumcovers {
+    margin-left: 20px;
+    margin-right: 5%;
+    padding-right: 0;
+    margin-top: 20px;
+} /* album covers - i had help with the margins and positions*/
+
+.band-member-img {
+    max-width: 200px !important;
+    margin-top: 50px !important;
+}/* top image */
+
+#band-cover {
+    padding: 0px;
+    width: 100vw;
+}/* top image, i had help with arranging this image */
+
+.topcover {
+    background-image: cover;
+} /* top image */
+
+#home-cover {
+    padding: 0px;
+    width: 100vw;
+} /* top image */
+
+
+.datestop {
+    position: right;
+} /* top image */
+
+.musictop {
+    position: right;
+} /* top image */
+
+.logo {
+    background: url("../images/thewhologo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 260px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: -30;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} /* band logo */
+
+.writting {
+    background: url("../images/writtingthree.jpg");
+    height: 260px;
+    padding-left: 0;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.currenttd {
+    width: 500px;
+    height: 150px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+marquee {
+    font-family: monospace;
+    color: white;
+    background-color: #061e44;
+    font-size: 18px;
+    margin: 8px;
+    height: 30px;
+    border-radius: 8px;
+} /* the marquee */
+
+
+.musichome {
+    color: #ffffff;
+    text-align: center;
+    font-family: monospace;
+    background-color: #E31111;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+
+}
+
+.community {
+    background-color: #E31111;
+} /* music and social section */
+
+#fbbtn {
+    background-color: #E31111;
+} /* social buttons - i had help with these buttons */
+
+.cbuttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #E31111;
+}
+
+.panel-default {
+    margin: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.homepara {
+    color: #ffffff;
+    background-color: #061e44;
+} /* about the band paragraph */
+
+.teencancer {
+    min-height: 360px;
+    min-width: 360px;
+    text-align: right;
+    font-family: monospace;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} /* the bands charity */
+
+.leftc {
+    height: 50px;
+} /* carousel controls */
+
+.rightc {
+    height: 50px;
+} /* carousel controls */
+
+
+/* nav bar --------------------------------------------------------------------------------------------------------------*/
+
+.navbar-default {
+    text-align: center;
+    font-size: 18px;
+    float: none;
+
+    color: #ffffff;
+    background-color: #061e44;
+} /* nav bar */
+
+#navbar .navbar-nav>li>a {
+    color: #ffffff;
+} /* nav bar */
+
+nav ul li {
+    list-style: center;
+    padding-left: 0;
+    color: #ffffff;
+    font-family: monospace;
+    background-color: #061e44;
+    margin-left: 30px;
+    display: inline-block;
+} /* nav bar - i had help with creating parts of the nav bar */
+
+/*------------------------beginning of dates-----------------------------------------------------------------------------------------*/
+
+.datestop {
+    margin-left: 100px;
+} /* top image */
+
+.tourvideo {
+    border-width: 2px;
+} /* top video */
+
+.tourtable {
+    background-color: #E31111;
+    margin-top: 20px;
+    padding-right: 50px;
+    display: inline-table;
+    color: #2c2e33;
+    font-family: monospace;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+} /* tour dates table */
+
+.form-inline{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------about--------------------------------------------------------------------------------------------------------------*/
+
+.railway {
+    /*top image*/
+    background-size: cover;
+    position: relative;
+} /* top image */
+
+h1 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    font-size: 90px;
+    color: #8e92cb;
+    font-family: monospace;
+    font-style: bold;
+} /* "who we are" heading */
+
+/*.top-centered {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}*/
+
+.keithpara {
+    background-color: #ffffff;
+    /*white*/
+    margin: 20px;
+    font-family: monospace;
+} /* kieths paragraph */
+
+.johnpara {
+    background-color: #1919e6;
+    /*blue*/
+    margin: 20px;
+    color: #ffffff;
+    font-family: monospace;
+} /* johns paragraph */
+
+.petepara {
+    background-color: #E31111;
+    /*red*/
+    margin: 20px;
+    color: #ffffff;
+    font-family: monospace;
+} /* petes paragraph */
+
+.rogerpara {
+    background-color: #ffffff;
+    /*white*/
+    margin: 20px;
+    font-family: monospace;
+} /* rogers paragraph */
+
+
+.currentband {
+    background-color: #1919e6;
+    /*blue*/
+    margin: 20px;
+    font-family: monospace;
+    color: #ffffff;
+} /* current band paragraph */
+
+/*.align-right {
+    float: right;
+    margin-left: 10px;
+}
+
+
+/*merchandise page-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.merchtop {
+    margin-bottom: 30px;
+} /* top image */
+
+.merchvideo {
+    margin-bottom: 30px;
+} /* top video */
+
+#leatherjacket {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#mug {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#tshirt {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#baseballjersey {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#top {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#hoodieone {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#hoodietwo {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#bag {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+} /* merchandise */
+
+#buybtn {
+    margin-bottom: 20px;
+} /* buy button for merchandise */
+
+/*--------gallery---------------------------------------------------------------------------------------------------------------------------------*/
+
+#carousel-example-generic{
+    margin-bottom: 20px;
+}
+/*---------------------------------------videos-----------------------------------------------------------------------------------------------------*/
+
+#musictopimg {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #ffffff;
+    padding-right: 0px;
+} /* top image on videos page */
+
+
+
+/*--------------------footer-------------------------------------------------------------------------------------------------------------------------*/
+
+.footerstyle {
+    background-color: #e31111;
+    margin-top: 2px;
+} /* the style of the footer */
+
+.footertext {
+    text-align: right;
+    font-family: monospace;
+    background-color: #e31111;
+} /* the text in the footer */
+
+
+.banner_img {
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .mobile
+    {max-height: 200px;
+
+    }
+}
